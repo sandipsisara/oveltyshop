@@ -1,0 +1,192 @@
+@media screen and (max-width:992px) {
+    .spacer-tp{
+        padding-top: 60px;
+      }
+
+      .spacer-td{
+        padding: 60px 0;
+      }
+      .grey-bg .testimonial1 .item {
+        max-width: 100%;
+      }
+      .product-left {
+        width: 48%;
+        float: left;
+    }
+    .page-title {
+      padding-bottom: 70px;
+      padding-top: 190px;
+    }
+    
+    .trans-elems h1 {
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .large-font {
+        font-size: 40px !important;
+        line-height: 50px;
+    }
+    .main_menu{
+      height: 300px;
+      overflow-y: auto;
+    }
+    
+    
+}
+
+@media screen and (max-width:767px) {
+    .trans-elems h1 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .product-left {
+      width: 100%;
+      float: none;
+    }
+    .page-title {
+      padding-bottom: 70px;
+      padding-top: 210px;
+  }
+    .table{
+      width: 700px;
+    }
+    .contact-info li{
+      padding: 60px 20px;
+      width: 100%;
+    }
+    #slide-arrow-2 .owl-nav ,#seller .owl-nav,
+    #fullscreen-banner .owl-nav .owl-prev,#fullscreen-banner .owl-nav .owl-next{
+      display: none;
+    }
+    .mega_menu{
+      display: grid !important;
+      grid-template-columns: repeat(2,minmax(250px,1fr));
+  }
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .topbar-link {
+        display: none;
+    }
+    .logo{
+      height: 50px;
+      width: 130px;
+    }
+    .container-fluid{
+        padding: 0 15px;
+      }
+    .topbar-menu > li {
+        padding: 0 4px;
+        border-right:none;
+      }
+      .topbar-menu > li:last-child{
+        padding: 0 0 0 4px;
+      }
+      .slider-label{
+        font-size: 15px;
+      }
+      .trans-elems h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .btn {
+        font-size: 13px;
+    }
+    .btn.btn-iconic i{
+        height: 43px;
+    }
+    .large-font {
+        font-size: 30px !important;
+        line-height: 36px;
+    }
+    .masonry ul li button{
+        width: 100%;
+        margin-bottom: 7px;
+    }
+    .grey-bg .testimonial1 .item {
+        max-width: 100%;
+      }
+
+    .grey-bg .testimonial1 .box p{
+        font-size: 18px;
+      }
+      .testimonial2 a{
+        height: 70px;
+        width: 70px;
+        margin: 0 5px 0 0;
+      }
+      .shop-count li {
+        padding: 20px 10px;
+        width: 100%;
+        margin: 0 0 15px 0;
+        display: block;
+    }
+    .shop-count li span {
+      font-size: 40px;
+      line-height: 30px;
+      margin-bottom: 10px;
+    }
+
+    .add_product .center{
+      left: 26px;
+      transform: translateY(-50%);
+    }
+    .grey-bg .nav-tabs{
+      display: block;
+    }
+    .grey-bg .nav-tabs .nav-link{
+      width: 100%;
+      overflow: hidden;
+      margin-left: 0;
+      margin-top: 10px;
+    }
+    .form-group input{
+      width: 100%;
+    }
+    .mega_menu{
+      display: grid !important;
+      grid-template-columns: repeat(1,minmax(250px,1fr));
+  }
+  .navbar-nav li a {
+    padding: 10px 20px !important;
+    
+}
+}
+@media all and (min-width: 990px) {
+	.navbar .nav-item .dropdown-menu{
+     display: none;
+   }
+   
+   .dropdown-menu[mega_menubg] {
+    top: 100%;
+  }
+	.navbar .nav-item:hover .dropdown-menu{
+     display: block; 
+    }
+	.navbar .nav-item .dropdown-menu{
+     margin-top:0; 
+    }
+    .sub_menu{
+        width: 250px;
+    }
+}
+@media all and (min-width: 991px) {
+    .mega_menu{
+        display: grid !important;
+        grid-template-columns: repeat(3,minmax(250px,1fr));
+    }
+}
+@media all and (min-width: 767px) and (max-width: 991px){
+    .mega_menu{
+        display: grid !important;
+        grid-template-columns: repeat(2,minmax(250px,1fr));
+    }
+}
