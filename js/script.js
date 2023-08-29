@@ -82,7 +82,7 @@ $(document).ready(function(){
                 autoplayTimeout: 1500,
                 responsive: {
                     0: {
-                        items: 2
+                        items: 1
                     },
                     600: {
                         items:2 
@@ -127,7 +127,7 @@ $(document).ready(function(){
             autoplayTimeout: 1500,
             responsive: {
                 0: {
-                    items: 2
+                    items: 1
                 },
                 600: {
                     items:2 

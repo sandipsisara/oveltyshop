@@ -775,7 +775,6 @@ ol, ul {
 .theme-bg ::placeholder{
   color: var(--colorWhite) !important;
 }
-/* .main */
 .email{
   background: none;
   outline: none;
